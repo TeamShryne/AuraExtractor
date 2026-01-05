@@ -12,9 +12,7 @@ A lightweight YouTube search extractor that provides clean search results withou
 
 ## Installation
 
-```bash
-npm install aura-extractor
-```
+coming soon
 
 ## Quick Start
 
