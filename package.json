@@ -1,0 +1,35 @@
+{
+  "name": "aura-extractor",
+  "version": "1.0.0",
+  "description": "A lightweight YouTube search extractor that provides clean search results without requiring API keys",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node test.js"
+  },
+  "keywords": ["youtube", "search", "extractor", "scraper", "api"],
+  "author": "TeamShryne",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shrawan/aura-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shrawan/aura-extractor/issues"
+  },
+  "homepage": "https://github.com/shrawan/aura-extractor#readme"
+}

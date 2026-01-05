@@ -1,0 +1,29 @@
+# Source files (only dist should be published)
+src/
+tsconfig.json
+test.js
+
+# Development files
+.gitignore
+.vscode/
+.idea/
+
+# Documentation (except README.md)
+docs/
+
+# CI/CD
+.github/
+.travis.yml
+.circleci/
+
+# Testing
+coverage/
+.nyc_output
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
